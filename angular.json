@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pokedex"
+    }
+  },
+  "defaultProject": "pokedex",
+  "cli": {
+    "analytics": "b0388305-ff9e-4a84-b96a-25ab265a0d61"
+  }
 }
