@@ -38,6 +38,7 @@ export class ListComponent implements OnInit {
 
   selectPokemon(pkm){
     this.selectedPkm = pkm;
+    // console.log(pkm.name);
   }
 
 }
