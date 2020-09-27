@@ -38,16 +38,16 @@ export class ListComponent implements OnInit {
         $(this).find('img')
           .finish()
           .animate({
-            'marginTop': '-80px',
-            'width' : '40px',
+            'marginTop': '-20px',
+            'width' : '35px',
           }, 150)
           .animate({
             'marginTop': '0',
             'width' : '32px',
           }, 150)
           .animate({
-            'marginTop': '-80px',
-            'width' : '40px', 
+            'marginTop': '-20px',
+            'width' : '35px', 
           }, 150)
           .animate({
             'marginTop': '0',
