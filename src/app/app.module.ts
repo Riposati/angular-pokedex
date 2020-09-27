@@ -15,7 +15,7 @@ import { MyNumberPipe } from './pipes/my-number.pipe';
     ListComponent,
     ListItemComponent,
     RollOnScrollDirective,
-    MyNumberPipe
+    MyNumberPipe,
   ],
   imports: [
     BrowserModule,

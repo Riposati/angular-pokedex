@@ -3,6 +3,8 @@
 <img [src]="pkmSprite" class="selected-pkm" *ngIf="selectedPkm !== null"  >
 <span id='pokemon-name' *ngIf="selectedPkm !== null">{{ selectedPkm.name | uppercase }}</span>
 
-<ul class="poke-list" >
+<ul class="poke-list" id='pokeList'>
   <app-list-item *ngFor="let pokemon of pokemonList" [pokemon]="pokemon" (mouseenter)="selectPokemon(pokemon)"></app-list-item>
 </ul>
+
+

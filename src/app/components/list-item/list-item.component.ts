@@ -9,9 +9,11 @@ export class ListItemComponent implements OnInit {
 
   @Input() pokemon: any;
 
-  constructor() { }
+  constructor() {
 
-  ngOnInit(): void {
   }
 
+  ngOnInit(): void {}
+
 }
+
